@@ -1,0 +1,243 @@
+body{
+background-color:orange;
+text-align:  center;	
+}
+header{
+	background-color:brown;
+}
+nav ul{
+	/*provides a flexible way to
+	design responsive layouts
+	*/
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	list-style: none;
+}
+nav li{
+	color: white;
+	padding-left: 25px;
+	font-size: 22px;     
+}	
+nav  ul li a{
+    color: yellow;
+}
+nav ul li a{visited
+	color:green;
+}
+nav ul img {
+	border-radius: 20px;
+	width: 50px
+	height: 50px
+}
+.course-card img{
+	width: 200px;
+	height: 150px;
+	border-radius: 30px;
+}
+.course-card h3{
+    color:brown;
+	}
+.course-card button{
+	background-color: brown;
+	color: grey;
+	border: 5px solid yellow;
+	border-radius: 30px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.course-card{
+	border: 1px solid red;
+	border-radius: 30px;
+	margin: 30px;
+}
+.course-card button:hover{_
+    background-color: blue;
+	color: black;
+	cursor: pointer;
+	border: 3px solid purple;
+}
+nav ul li a:hover{
+	color:blue;
+}
+footer{
+	background-color:pink;
+	color:black;
+	padding:20px;
+}
+.courses{
+	display:grid;
+	grid-template-columns:auto auto auto;
+}
+.cover h3{
+	font-family: san-serif;
+	font-size: 28px;
+}
+.cover paragraph{
+	font-family: san-serif;
+	font-size: 28px;
+	color:red;
+	line-height:2;
+}
+.cover{
+	width: 100%;
+	height: 130px;
+	background-image: url("../Images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: brown;
+}
+.team-member img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
+.team-member h3{
+    color:brown;
+	border-radius:10px;
+	margin:15px;
+	padding:10px;
+	}
+.team-member button{
+	background-color: brown;
+	color: grey;
+	border: 5px solid yellow;
+	border-radius: 10px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.team-member{
+	border: 1px solid red;
+	border-radius: 30px;
+	margin: 30px;
+	padding: 15px;
+}
+.team-member button:hover{_
+    background-color: blue;
+	color: black;
+	cursor: pointer;
+	border: 3px solid purple;
+}
+.team{
+	display:grid;
+	grid-template-columns:auto auto auto;
+}
+.    uteam-member button{
+    background-color: brown;
+	color: grey;
+	border: 5px solid yellow;
+	border-radius: 20px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.nextprevious button{
+	background-color: yellow;
+	border: 2px solid blue;
+	padding:2px;
+	font-weight: bold;
+	border-radius: 25px;
+	font-size: 34px;
+	margin-bottom:20px;
+}
+.contact-card img{
+	width: 80px;
+	height: 80px;
+	border-radius: 35px;
+}
+.contact-card h3{
+    color:brown;
+}
+.contact-card button{
+	background-color: brown;
+	color: grey;
+	border: 5px solid yellow;
+	border-radius: 20px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.contact-card{
+	border: 1px solid red;
+	border-radius: 30px;
+	margin: 20px;
+	padding: 15px;
+}
+.contact-card button:hover{
+    background-color: blue;
+	color: black;
+	cursor: pointer;
+	border: 3px solid purple;
+}
+.contact{
+	display:grid;
+	grid-template-columns:auto auto auto;
+}
+form{
+	border-style: solid;
+	border-color: purple;
+	border-radius: 20px;
+	outline-style: solid;
+	outline-color: red;
+	outline-width: 10px;
+	width: 400px;
+	padding: 15px;
+	text-align: left;
+	margin-bottom: 2px;
+	display:flex;/*resize form elements to fit form width*/
+	flex-direction: column;
+	margin-left: 40%;
+}
+Input[type=text]{
+	border: solid;
+	border-color: orange;
+	border-width: 3px;
+	border-radius: 27px;
+	margin-bottom: 10px;
+	padding-top:  15px;
+	padding-bottom: 15px;
+	font-size: 20px;
+}
+Input[type=email]{
+	border: solid;
+	border-color: orange;
+	border-width: 3px;
+	border-radius: 27px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+Input[type=text]:focus{
+	background-color:green;
+	color: white;
+}
+Input[type=email]:focus{
+	background-color:green;
+	color:white;
+}	
+label{
+	font-size: 32px;
+	font-weight: bold;
+}
+input[type=submit]{
+	font-size: 32px;
+	backgrond-color: pink;
+	border-color: black;
+	outline-style: solid;
+	font-weight: bold;
+	outline-color: solid orange;
+	outline-width: 9px;
+	border-radius: 17px;
+	padding: 10px;
+}
+input[type=submit]:hover{
+	background-color: orange;
+	outline-color: blue;
+	outline-width: 8px;
+	color: white;
+	cursor: pointer;
+}
